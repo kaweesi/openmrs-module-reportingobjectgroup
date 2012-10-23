@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.0">
+
+	<!-- HIV ART Register Module Properties -->
+	<id>@MODULE_ID@</id>
+	<name>@MODULE_NAME@</name>
+	<version>@MODULE_VERSION@</version>
+	<package>@MODULE_PACKAGE@</package>
+	<author>PIH</author>
+	<description>Support module for reporting framework that provides ObjectGroup and dynamic calendar functionality</description>
+	<activator>@MODULE_PACKAGE@.ReportingObjectGroupModuleActivator</activator>
+	<updateURL>https://dev.openmrs.org/modules/download/@MODULE_ID@/update.rdf</updateURL>
+	<require_version>1.6.2</require_version>
+	
+
+	<require_modules>
+		<require_module version="0.7.1">org.openmrs.module.reporting</require_module>
+	</require_modules>
+
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+
+	<mappingFiles>
+	</mappingFiles>
+	
+	<!-- End Heart Failure report global properties  -->
+</module>
