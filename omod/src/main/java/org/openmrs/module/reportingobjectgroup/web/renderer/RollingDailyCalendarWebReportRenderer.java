@@ -37,7 +37,7 @@ public class RollingDailyCalendarWebReportRenderer extends AbstractWebReportRend
 	 * @see org.openmrs.report.ReportRenderer#getLinkUrl(org.openmrs.report.ReportDefinition)
 	 */
 	public String getLinkUrl(ReportDefinition reportDefinition) {
-		return "module/reporting/reports/renderIndicatorReportData.form";
+		return "module/reporting/reports/renderDefaultReport.form";
 	}
 		
 	/**
