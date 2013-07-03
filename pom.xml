@@ -12,9 +12,9 @@
 	<url>http://openmrs.org</url>
 
 	<scm>
-		<connection>scm:svn:http://svn.openmrs.org/openmrs-modules/reportingobjectgroup/trunk/</connection>
-		<developerConnection>scm:svn:http://svn.openmrs.org/openmrs-modules/reportingobjectgroup/trunk/</developerConnection>
-		<url>http://svn.openmrs.org/openmrs-modules/reportingobjectgroup/trunk/</url>
+		<connection>scm:git:https://github.com/openmrs/openmrs-module-reportingobjectgroup/</connection>
+		<developerConnection>scm:git:https://github.com/openmrs/openmrs-module-reportingobjectgroup/</developerConnection>
+		<url>https://github.com/openmrs/openmrs-module-reportingobjectgroup/</url>
 	</scm>
 
 	<modules>
@@ -304,6 +304,19 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+
+	<distributionManagement>
+		<repository>
+		    <id>openmrs-repo-modules</id>
+		    <name>OpenMRS Modules</name>
+		    <url>http://mavenrepo.openmrs.org/nexus/content/repositories/modules</url>
+		</repository>
+		<snapshotRepository>
+		    <id>openmrs-repo-snapshots</id>
+		    <name>OpenMRS Snapshots</name>
+		    <url>http://mavenrepo.openmrs.org/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<repositories>
 		<repository>
