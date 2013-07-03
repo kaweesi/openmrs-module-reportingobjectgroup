@@ -12,9 +12,9 @@
 	<url>http://openmrs.org</url>
 
 	<scm>
-		<connection>scm:git:https://github.com/openmrs/openmrs-module-reportingobjectgroup/</connection>
-		<developerConnection>scm:git:https://github.com/openmrs/openmrs-module-reportingobjectgroup/</developerConnection>
-		<url>https://github.com/openmrs/openmrs-module-reportingobjectgroup/</url>
+		<connection>scm:git:https://github.com/PIH/openmrs-module-reportingobjectgroup/</connection>
+		<developerConnection>scm:git:https://github.com/PIH/openmrs-module-reportingobjectgroup/</developerConnection>
+		<url>https://github.com/PIH/openmrs-module-reportingobjectgroup/</url>
 	</scm>
 
 	<modules>
