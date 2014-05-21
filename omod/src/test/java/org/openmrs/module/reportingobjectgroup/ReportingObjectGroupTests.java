@@ -25,7 +25,6 @@ import org.openmrs.module.reportingobjectgroup.objectgroup.service.ObjectGroupDe
 import org.openmrs.test.BaseModuleContextSensitiveTest;
 import org.springframework.util.Assert;
 
-
 public class ReportingObjectGroupTests extends BaseModuleContextSensitiveTest  {
 	
 	PersonAttribute pa = new PersonAttribute();
@@ -34,7 +33,6 @@ public class ReportingObjectGroupTests extends BaseModuleContextSensitiveTest  {
     public Boolean useInMemoryDatabase(){
         return true;
     }
-	
 
 	@Test
     public void should_loadServices() {
