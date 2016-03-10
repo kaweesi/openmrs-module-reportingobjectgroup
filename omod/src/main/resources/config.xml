@@ -11,11 +11,11 @@
 	<description>Support module for reporting framework that provides ObjectGroup and dynamic calendar functionality</description>
 	<activator>@MODULE_PACKAGE@.ReportingObjectGroupModuleActivator</activator>
 	<updateURL>https://dev.openmrs.org/modules/download/@MODULE_ID@/update.rdf</updateURL>
-	<require_version>1.6.2</require_version>
+	<require_version>${openMRSVersion}</require_version>
 	
 
 	<require_modules>
-		<require_module version="0.7.1">org.openmrs.module.reporting</require_module>
+		<require_module version="${reportingVersion}">org.openmrs.module.reporting</require_module>
 	</require_modules>
 
 	<messages>
